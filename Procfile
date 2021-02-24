@@ -1,1 +1,1 @@
-web:nodemp app.js
+web: npm start
