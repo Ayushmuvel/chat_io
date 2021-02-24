@@ -8,7 +8,7 @@ const path = require("path");
 
 //system variables
 dotenv.config()
-const express_port = process.env.Express_Port;
+const express_port = process.env.PORT;
 
 // addind express
 const app = express();
