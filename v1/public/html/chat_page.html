@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--our html code start here-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat io</title>
+    <script defer src="/socket.io/socket.io.js"></script>
+    <script defer src="../js/chat_page.js"></script>
+    <link rel="stylesheet" href="../css/chat_page.css">
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="../img/icon.png" alt="">
+    </nav>
+    <div id="container" class="container">
+        <!--<div class="message center">
+            Hello Every one you are wellcome to chat io
+        </div>
+        <div class="message left">
+            Harry : hello every one
+        </div>
+        <div class="message right">
+            Rohan : hello harry
+        </div> -->
+    </div>
+    <div class="send">
+        <form id="send-container">
+            <input type="text" name="messageInp" id="messageInp" required autocomplete="off">
+            <button type="submit" id='send_msg' class="btn">Send</button>
+        </form>
+    </div>
+    <script>
+        const data = {
+            name: '<%= name %>',
+            group: '<%= group_name %>'
+        }
+    </script>
+</body>
+
+</html>

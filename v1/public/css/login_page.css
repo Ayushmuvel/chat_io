@@ -1,0 +1,47 @@
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    height: 100vh;
+    background-image: radial-gradient(circle farthest-corner at 100% 100%, #63bafc, #b2f491);
+}
+
+.login_form {
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 10%;
+    text-align: center;
+    border-radius: 10px;
+    width: max-content;
+    border: 1px solid;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: aqua;
+    padding-left: 10px;
+}
+
+.btn {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #63bafc;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
