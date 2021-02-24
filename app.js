@@ -59,7 +59,7 @@ io.on('connection', socket => {
     socket.on('disconnect', () => {
         if (socket.id in users) {
             let name = users[socket.id].name
-            io.emit('message', { name: name, msg: 'A user has left the chat room' })
+            io.emit('message', { name: name, msg: 'has left the chat room' })
         }
     })
 });
